@@ -2,8 +2,6 @@ package me.epicgeek.leetcode.easy.string;
 
 import java.util.Stack;
 
-import javax.swing.text.html.HTMLDocument.HTMLReader.IsindexAction;
-
 public class Palindrome {
 	public static void main(String[] args) {
 		System.out.println(isPalindrome("alola"));
