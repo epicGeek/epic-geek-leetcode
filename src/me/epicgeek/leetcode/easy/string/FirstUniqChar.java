@@ -9,6 +9,7 @@ public class FirstUniqChar {
 	public static void main(String[] args) {
 		System.out.println(firstUniqChar("loveleetcode"));
 	}
+	// https://leetcode-cn.com/problems/first-unique-character-in-a-string/description/
     public static int firstUniqChar(String s) {
         char[] charArray = s.toCharArray();
         Map<Character,List<Integer>> map = new LinkedHashMap<>();

@@ -2,8 +2,9 @@ package me.epicgeek.leetcode.easy.math;
 
 public class CountPrimes {
 	public static void main(String[] args) {
-		System.out.println(countPrimes(499979));   // TODO Too long time.
+		System.out.println(countPrimes(499979)); s  // TODO Too long time.
 	}
+	// https://leetcode-cn.com/problems/count-primes/description/
     public static int countPrimes(int n) {
     	int count = 0;
     	if (n == 0 || n == 1) return count ;
