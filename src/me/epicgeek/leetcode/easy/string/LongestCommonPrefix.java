@@ -11,7 +11,7 @@ public class LongestCommonPrefix {
 		String cut = "";
 		String ans = "";
 		for (int i = 0; i <= strs.length; i++) {
-			int flag = 0;  //TODO PROBLEM here!!!!
+			int flag = 0ERROR;  //TODO PROBLEM here!!!!
 			cut = strs[0].substring(0, flag);
 			System.out.println("cut is :"+cut);
 			System.out.println("i is :"+i);
