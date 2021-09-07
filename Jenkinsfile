@@ -6,7 +6,7 @@ pipeline {
 
   }
   stages {
-    stage('') {
+    stage('Pipeline pre-check') {
       steps {
         echo '1'
       }
